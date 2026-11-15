@@ -2,13 +2,8 @@
 
 A functional international career-mobility assessment MVP: create a profile, evaluate fifteen fictional opportunities, understand ranked matches, inspect requirements and manage a persistent shortlist.
 
-Next.js App Router + React + TypeScript, Supabase PostgreSQL/Anonymous Auth, Tailwind v4 and shadcn/Base UI. Matching is deterministic and explainable; no external job feed or runtime AI API is required.
+Next.js App Router + React + TypeScript, Supabase PostgreSQL/Anonymous Auth, Tailwind v4 and shadcn/Base UI. Matching is deterministic and explainable; no external job feed or runtime AI API is required in this MVP.
 
-## Submission status
-
-The five-screen local workflow and Phase 7 QA/documentation are implemented. Verification: **73 unit/integration tests and 23 production browser tests pass**, plus lint, typecheck, production build and automated accessibility checks. See [final QA](docs/final-qa.md), [test evidence](docs/test-evidence.md), [technical note](docs/technical-note.md), [acceptance checklist](docs/acceptance-checklist.md) and [AI/tool disclosure](docs/ai-tool-disclosure.md).
-
-Hosted Supabase verification needs project credentials, and the original assessment/profile was not supplied. The fixture is illustrative. No live deployment or outbound submission has been performed. The source ZIP and exact external handoff items are described in [submission instructions](docs/submission.md).
 
 ## Prerequisites
 

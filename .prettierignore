@@ -3,5 +3,10 @@ node_modules/
 .next/
 .turbo/
 coverage/
+artifacts/
+docs/evidence/*.json
+test-results/
+playwright-report/
+blob-report/
 pnpm-lock.yaml
 .pnpm-store/

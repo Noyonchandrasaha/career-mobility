@@ -1,0 +1,672 @@
+{
+  "fixture": "Illustrative candidate, not a verified copy of the unavailable original assessment profile.",
+  "scenarios": [
+    {
+      "name": "Strong match",
+      "input": {
+        "profile": {
+          "educationLevel": "bachelors",
+          "fieldOfStudy": "business administration",
+          "experienceYears": 2,
+          "experienceDescription": "Two years assisting programme research, reporting and project coordination for a fictional organization.",
+          "skills": [
+            "excel",
+            "research",
+            "reporting",
+            "project coordination",
+            "communication"
+          ],
+          "languages": [
+            {
+              "language": "English",
+              "proficiency": "professional"
+            },
+            {
+              "language": "Bengali",
+              "proficiency": "native"
+            }
+          ],
+          "preferredCountries": [
+            "Canada",
+            "Singapore",
+            "Germany"
+          ],
+          "careerInterests": [
+            "Operations",
+            "Project Management",
+            "Research"
+          ],
+          "workAuthorizations": {
+            "Canada": "unknown",
+            "Singapore": "unknown",
+            "Germany": "unknown"
+          },
+          "studentStatus": "unknown"
+        },
+        "opportunity": {
+          "id": "00000000-0000-4000-8000-000000000001",
+          "slug": "programme-assistant",
+          "title": "Programme Assistant",
+          "organization": "MapleBridge Initiatives",
+          "country": "Canada",
+          "city": "Toronto",
+          "employmentType": "full_time",
+          "description": "Coordinate a fictional community programme, maintain reporting schedules and support stakeholder meetings.",
+          "responsibilities": [
+            "Maintain programme trackers and weekly reports.",
+            "Coordinate meetings and follow up on action items."
+          ],
+          "requiredSkills": [
+            "excel",
+            "research",
+            "reporting",
+            "project coordination"
+          ],
+          "minimumExperienceYears": 1,
+          "minimumEducationLevel": "bachelors",
+          "acceptedEducationFields": [
+            "business administration",
+            "social sciences"
+          ],
+          "requiredLanguages": [
+            {
+              "language": "English",
+              "minimumProficiency": "professional",
+              "mandatory": true
+            }
+          ],
+          "careerCategories": [
+            "Programme Operations"
+          ],
+          "eligibility": {
+            "requiresCurrentEnrollment": false,
+            "requiresLocalWorkAuthorization": false,
+            "additionalConditions": []
+          },
+          "isActive": true
+        }
+      },
+      "expected": {
+        "score": 100,
+        "eligibilityStatus": "no_identified_blocker"
+      },
+      "actual": {
+        "opportunityId": "00000000-0000-4000-8000-000000000001",
+        "score": 100,
+        "criterionScores": {
+          "skills": 1,
+          "experience": 1,
+          "education": 1,
+          "location": 1,
+          "language": 1
+        },
+        "eligibilityStatus": "no_identified_blocker",
+        "criterionExplanations": {
+          "skills": "Skills: 4 of 4 required skills listed.",
+          "experience": "Experience: 2 years declared; 1 years required. Minimum met.",
+          "education": "Education: qualification level met; field accepted.",
+          "location": "Location: Canada is among preferred countries; preference does not establish work authorization.",
+          "language": "Language: English (professional) requirement met."
+        },
+        "eligibilityFindings": [],
+        "matchedSkills": [
+          "excel",
+          "research",
+          "reporting",
+          "project coordination"
+        ],
+        "missingSkills": [],
+        "strengths": [
+          "Listed required skills: excel, research, reporting, project coordination.",
+          "Experience: 2 years declared; 1 years required. Minimum met.",
+          "Education: qualification level met; field accepted.",
+          "Location: Canada is among preferred countries; preference does not establish work authorization.",
+          "Language: English (professional) requirement met."
+        ],
+        "gaps": [],
+        "warnings": [],
+        "explanation": "Skills: 4 of 4 required skills listed. Experience: 2 years declared; 1 years required. Minimum met. Education: qualification level met; field accepted. Location: Canada is among preferred countries; preference does not establish work authorization. Language: English (professional) requirement met. No identified configured blocker; this is not legal verification."
+      },
+      "passed": true
+    },
+    {
+      "name": "Partial match",
+      "input": {
+        "profile": {
+          "educationLevel": "bachelors",
+          "fieldOfStudy": "business administration",
+          "experienceYears": 2,
+          "experienceDescription": "Two years assisting programme research, reporting and project coordination for a fictional organization.",
+          "skills": [
+            "excel",
+            "research",
+            "reporting",
+            "project coordination",
+            "communication"
+          ],
+          "languages": [
+            {
+              "language": "English",
+              "proficiency": "professional"
+            },
+            {
+              "language": "Bengali",
+              "proficiency": "native"
+            }
+          ],
+          "preferredCountries": [
+            "Canada",
+            "Singapore",
+            "Germany"
+          ],
+          "careerInterests": [
+            "Operations",
+            "Project Management",
+            "Research"
+          ],
+          "workAuthorizations": {
+            "Canada": "unknown",
+            "Singapore": "unknown",
+            "Germany": "unknown"
+          },
+          "studentStatus": "unknown"
+        },
+        "opportunity": {
+          "id": "00000000-0000-4000-8000-000000000005",
+          "slug": "operations-analyst",
+          "title": "Operations Analyst",
+          "organization": "Straits Orchard Operations",
+          "country": "Singapore",
+          "city": "Singapore",
+          "employmentType": "full_time",
+          "description": "Analyze fictional service operations data and prepare practical improvement recommendations.",
+          "responsibilities": [
+            "Prepare operational dashboards.",
+            "Investigate process bottlenecks."
+          ],
+          "requiredSkills": [
+            "excel",
+            "reporting",
+            "sql",
+            "data visualization"
+          ],
+          "minimumExperienceYears": 2,
+          "minimumEducationLevel": "bachelors",
+          "acceptedEducationFields": [
+            "business administration",
+            "economics"
+          ],
+          "requiredLanguages": [
+            {
+              "language": "English",
+              "minimumProficiency": "professional",
+              "mandatory": true
+            }
+          ],
+          "careerCategories": [
+            "Operations",
+            "Analytics"
+          ],
+          "eligibility": {
+            "requiresCurrentEnrollment": false,
+            "requiresLocalWorkAuthorization": false,
+            "additionalConditions": []
+          },
+          "isActive": true
+        }
+      },
+      "expected": {
+        "score": 83,
+        "eligibilityStatus": "no_identified_blocker"
+      },
+      "actual": {
+        "opportunityId": "00000000-0000-4000-8000-000000000005",
+        "score": 83,
+        "criterionScores": {
+          "skills": 0.5,
+          "experience": 1,
+          "education": 1,
+          "location": 1,
+          "language": 1
+        },
+        "eligibilityStatus": "no_identified_blocker",
+        "criterionExplanations": {
+          "skills": "Skills: 2 of 4 required skills listed.",
+          "experience": "Experience: 2 years declared; 2 years required. Minimum met.",
+          "education": "Education: qualification level met; field accepted.",
+          "location": "Location: Singapore is among preferred countries; preference does not establish work authorization.",
+          "language": "Language: English (professional) requirement met."
+        },
+        "eligibilityFindings": [],
+        "matchedSkills": [
+          "excel",
+          "reporting"
+        ],
+        "missingSkills": [
+          "sql",
+          "data visualization"
+        ],
+        "strengths": [
+          "Listed required skills: excel, reporting.",
+          "Experience: 2 years declared; 2 years required. Minimum met.",
+          "Education: qualification level met; field accepted.",
+          "Location: Singapore is among preferred countries; preference does not establish work authorization.",
+          "Language: English (professional) requirement met."
+        ],
+        "gaps": [
+          "Missing required skills: sql, data visualization."
+        ],
+        "warnings": [],
+        "explanation": "Skills: 2 of 4 required skills listed. Experience: 2 years declared; 2 years required. Minimum met. Education: qualification level met; field accepted. Location: Singapore is among preferred countries; preference does not establish work authorization. Language: English (professional) requirement met. No identified configured blocker; this is not legal verification."
+      },
+      "passed": true
+    },
+    {
+      "name": "Critical enrollment gap",
+      "input": {
+        "profile": {
+          "educationLevel": "bachelors",
+          "fieldOfStudy": "business administration",
+          "experienceYears": 2,
+          "experienceDescription": "Two years assisting programme research, reporting and project coordination for a fictional organization.",
+          "skills": [
+            "excel",
+            "research",
+            "reporting",
+            "project coordination",
+            "communication"
+          ],
+          "languages": [
+            {
+              "language": "English",
+              "proficiency": "professional"
+            },
+            {
+              "language": "Bengali",
+              "proficiency": "native"
+            }
+          ],
+          "preferredCountries": [
+            "Canada",
+            "Singapore",
+            "Germany"
+          ],
+          "careerInterests": [
+            "Operations",
+            "Project Management",
+            "Research"
+          ],
+          "workAuthorizations": {
+            "Canada": "unknown",
+            "Singapore": "unknown",
+            "Germany": "unknown"
+          },
+          "studentStatus": "no"
+        },
+        "opportunity": {
+          "id": "00000000-0000-4000-8000-000000000009",
+          "slug": "business-analyst-intern",
+          "title": "Business Analyst Intern",
+          "organization": "Maple Cove Analytics",
+          "country": "Canada",
+          "city": "Toronto",
+          "employmentType": "internship",
+          "description": "A fictional student internship supporting research and spreadsheet analysis.",
+          "responsibilities": [
+            "Assist with spreadsheet-based analysis.",
+            "Summarize findings for the project team."
+          ],
+          "requiredSkills": [
+            "excel",
+            "research",
+            "data analysis"
+          ],
+          "minimumExperienceYears": 0,
+          "minimumEducationLevel": "bachelors",
+          "acceptedEducationFields": [
+            "business administration",
+            "economics"
+          ],
+          "requiredLanguages": [
+            {
+              "language": "English",
+              "minimumProficiency": "professional",
+              "mandatory": true
+            }
+          ],
+          "careerCategories": [
+            "Analytics"
+          ],
+          "eligibility": {
+            "requiresCurrentEnrollment": true,
+            "requiresLocalWorkAuthorization": true,
+            "additionalConditions": []
+          },
+          "isActive": true
+        }
+      },
+      "expected": {
+        "score": 88,
+        "eligibilityStatus": "blocked"
+      },
+      "actual": {
+        "opportunityId": "00000000-0000-4000-8000-000000000009",
+        "score": 88,
+        "criterionScores": {
+          "skills": 0.6666666666666666,
+          "experience": 1,
+          "education": 1,
+          "location": 1,
+          "language": 1
+        },
+        "eligibilityStatus": "blocked",
+        "criterionExplanations": {
+          "skills": "Skills: 2 of 3 required skills listed.",
+          "experience": "Experience: 2 years declared; 0 years required. Minimum met.",
+          "education": "Education: qualification level met; field accepted.",
+          "location": "Location: Canada is among preferred countries; preference does not establish work authorization.",
+          "language": "Language: English (professional) requirement met."
+        },
+        "eligibilityFindings": [
+          "Current student enrollment is required but candidate is not enrolled.",
+          "Local work authorization for Canada requires verification."
+        ],
+        "matchedSkills": [
+          "excel",
+          "research"
+        ],
+        "missingSkills": [
+          "data analysis"
+        ],
+        "strengths": [
+          "Listed required skills: excel, research.",
+          "Experience: 2 years declared; 0 years required. Minimum met.",
+          "Education: qualification level met; field accepted.",
+          "Location: Canada is among preferred countries; preference does not establish work authorization.",
+          "Language: English (professional) requirement met."
+        ],
+        "gaps": [
+          "Missing required skills: data analysis.",
+          "Current student enrollment is required but candidate is not enrolled."
+        ],
+        "warnings": [
+          "Local work authorization for Canada requires verification."
+        ],
+        "explanation": "Skills: 2 of 3 required skills listed. Experience: 2 years declared; 0 years required. Minimum met. Education: qualification level met; field accepted. Location: Canada is among preferred countries; preference does not establish work authorization. Language: English (professional) requirement met. Current student enrollment is required but candidate is not enrolled. Local work authorization for Canada requires verification."
+      },
+      "passed": true
+    },
+    {
+      "name": "Unknown eligibility",
+      "input": {
+        "profile": {
+          "educationLevel": "bachelors",
+          "fieldOfStudy": "business administration",
+          "experienceYears": 2,
+          "experienceDescription": "Two years assisting programme research, reporting and project coordination for a fictional organization.",
+          "skills": [
+            "excel",
+            "research",
+            "reporting",
+            "project coordination",
+            "communication"
+          ],
+          "languages": [
+            {
+              "language": "English",
+              "proficiency": "professional"
+            },
+            {
+              "language": "Bengali",
+              "proficiency": "native"
+            }
+          ],
+          "preferredCountries": [
+            "Canada",
+            "Singapore",
+            "Germany"
+          ],
+          "careerInterests": [
+            "Operations",
+            "Project Management",
+            "Research"
+          ],
+          "workAuthorizations": {
+            "Canada": "unknown",
+            "Singapore": "unknown",
+            "Germany": "unknown"
+          },
+          "studentStatus": "unknown"
+        },
+        "opportunity": {
+          "id": "00000000-0000-4000-8000-000000000009",
+          "slug": "business-analyst-intern",
+          "title": "Business Analyst Intern",
+          "organization": "Maple Cove Analytics",
+          "country": "Canada",
+          "city": "Toronto",
+          "employmentType": "internship",
+          "description": "A fictional student internship supporting research and spreadsheet analysis.",
+          "responsibilities": [
+            "Assist with spreadsheet-based analysis.",
+            "Summarize findings for the project team."
+          ],
+          "requiredSkills": [
+            "excel",
+            "research",
+            "data analysis"
+          ],
+          "minimumExperienceYears": 0,
+          "minimumEducationLevel": "bachelors",
+          "acceptedEducationFields": [
+            "business administration",
+            "economics"
+          ],
+          "requiredLanguages": [
+            {
+              "language": "English",
+              "minimumProficiency": "professional",
+              "mandatory": true
+            }
+          ],
+          "careerCategories": [
+            "Analytics"
+          ],
+          "eligibility": {
+            "requiresCurrentEnrollment": true,
+            "requiresLocalWorkAuthorization": true,
+            "additionalConditions": []
+          },
+          "isActive": true
+        }
+      },
+      "expected": {
+        "score": 88,
+        "eligibilityStatus": "requires_verification"
+      },
+      "actual": {
+        "opportunityId": "00000000-0000-4000-8000-000000000009",
+        "score": 88,
+        "criterionScores": {
+          "skills": 0.6666666666666666,
+          "experience": 1,
+          "education": 1,
+          "location": 1,
+          "language": 1
+        },
+        "eligibilityStatus": "requires_verification",
+        "criterionExplanations": {
+          "skills": "Skills: 2 of 3 required skills listed.",
+          "experience": "Experience: 2 years declared; 0 years required. Minimum met.",
+          "education": "Education: qualification level met; field accepted.",
+          "location": "Location: Canada is among preferred countries; preference does not establish work authorization.",
+          "language": "Language: English (professional) requirement met."
+        },
+        "eligibilityFindings": [
+          "Local work authorization for Canada requires verification.",
+          "Current student enrollment requires verification."
+        ],
+        "matchedSkills": [
+          "excel",
+          "research"
+        ],
+        "missingSkills": [
+          "data analysis"
+        ],
+        "strengths": [
+          "Listed required skills: excel, research.",
+          "Experience: 2 years declared; 0 years required. Minimum met.",
+          "Education: qualification level met; field accepted.",
+          "Location: Canada is among preferred countries; preference does not establish work authorization.",
+          "Language: English (professional) requirement met."
+        ],
+        "gaps": [
+          "Missing required skills: data analysis."
+        ],
+        "warnings": [
+          "Local work authorization for Canada requires verification.",
+          "Current student enrollment requires verification."
+        ],
+        "explanation": "Skills: 2 of 3 required skills listed. Experience: 2 years declared; 0 years required. Minimum met. Education: qualification level met; field accepted. Location: Canada is among preferred countries; preference does not establish work authorization. Language: English (professional) requirement met. Local work authorization for Canada requires verification. Current student enrollment requires verification."
+      },
+      "passed": true
+    },
+    {
+      "name": "Mandatory German gap",
+      "input": {
+        "profile": {
+          "educationLevel": "bachelors",
+          "fieldOfStudy": "business administration",
+          "experienceYears": 2,
+          "experienceDescription": "Two years assisting programme research, reporting and project coordination for a fictional organization.",
+          "skills": [
+            "excel",
+            "research",
+            "reporting",
+            "project coordination",
+            "communication"
+          ],
+          "languages": [
+            {
+              "language": "English",
+              "proficiency": "professional"
+            },
+            {
+              "language": "Bengali",
+              "proficiency": "native"
+            }
+          ],
+          "preferredCountries": [
+            "Canada",
+            "Singapore",
+            "Germany"
+          ],
+          "careerInterests": [
+            "Operations",
+            "Project Management",
+            "Research"
+          ],
+          "workAuthorizations": {
+            "Canada": "unknown",
+            "Singapore": "unknown",
+            "Germany": "unknown"
+          },
+          "studentStatus": "unknown"
+        },
+        "opportunity": {
+          "id": "00000000-0000-4000-8000-000000000010",
+          "slug": "german-speaking-client-associate",
+          "title": "German-speaking Client Associate",
+          "organization": "Spree Lantern Relations",
+          "country": "Germany",
+          "city": "Berlin",
+          "employmentType": "full_time",
+          "description": "Support fictional German-speaking clients through clear communication and issue tracking.",
+          "responsibilities": [
+            "Respond to German-language client inquiries.",
+            "Maintain client issue reports."
+          ],
+          "requiredSkills": [
+            "communication",
+            "customer service",
+            "reporting"
+          ],
+          "minimumExperienceYears": 1,
+          "minimumEducationLevel": "bachelors",
+          "acceptedEducationFields": [
+            "business administration"
+          ],
+          "requiredLanguages": [
+            {
+              "language": "English",
+              "minimumProficiency": "professional",
+              "mandatory": true
+            },
+            {
+              "language": "German",
+              "minimumProficiency": "professional",
+              "mandatory": true
+            }
+          ],
+          "careerCategories": [
+            "Client Services"
+          ],
+          "eligibility": {
+            "requiresCurrentEnrollment": false,
+            "requiresLocalWorkAuthorization": false,
+            "additionalConditions": []
+          },
+          "isActive": true
+        }
+      },
+      "expected": {
+        "score": 81,
+        "eligibilityStatus": "blocked"
+      },
+      "actual": {
+        "opportunityId": "00000000-0000-4000-8000-000000000010",
+        "score": 81,
+        "criterionScores": {
+          "skills": 0.6666666666666666,
+          "experience": 1,
+          "education": 1,
+          "location": 1,
+          "language": 0.5
+        },
+        "eligibilityStatus": "blocked",
+        "criterionExplanations": {
+          "skills": "Skills: 2 of 3 required skills listed.",
+          "experience": "Experience: 2 years declared; 1 years required. Minimum met.",
+          "education": "Education: qualification level met; field accepted.",
+          "location": "Location: Germany is among preferred countries; preference does not establish work authorization.",
+          "language": "Language: English (professional) requirement met. Language: German (professional) requirement not met."
+        },
+        "eligibilityFindings": [
+          "Mandatory German proficiency requirement is not met."
+        ],
+        "matchedSkills": [
+          "communication",
+          "reporting"
+        ],
+        "missingSkills": [
+          "customer service"
+        ],
+        "strengths": [
+          "Listed required skills: communication, reporting.",
+          "Experience: 2 years declared; 1 years required. Minimum met.",
+          "Education: qualification level met; field accepted.",
+          "Location: Germany is among preferred countries; preference does not establish work authorization.",
+          "Language: English (professional) requirement met."
+        ],
+        "gaps": [
+          "Missing required skills: customer service.",
+          "Language: German (professional) requirement not met.",
+          "Mandatory German proficiency requirement is not met."
+        ],
+        "warnings": [],
+        "explanation": "Skills: 2 of 3 required skills listed. Experience: 2 years declared; 1 years required. Minimum met. Education: qualification level met; field accepted. Location: Germany is among preferred countries; preference does not establish work authorization. Language: English (professional) requirement met. Language: German (professional) requirement not met. Mandatory German proficiency requirement is not met."
+      },
+      "passed": true
+    }
+  ]
+}

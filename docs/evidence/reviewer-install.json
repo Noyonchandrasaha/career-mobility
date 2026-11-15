@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-11-15T16:50:25.017Z",
+  "environment": {
+    "node": "v26.13.1",
+    "pnpm": "12.18.0",
+    "platform": "win32"
+  },
+  "layout": "Standalone extracted sibling directory, independent from the development repository",
+  "candidateArchiveSha256": "6a89a244c252530fd95b307eeb2b7000d1816ada6591f71a8cb15437ebb3ccdc",
+  "sourceFilesVerified": 168,
+  "runtimeFingerprint": "5fe1697d5c11d573ac9c397efe791d53fc05776393905a0610393b6b87bac310",
+  "dependencyInstall": "PASS: offline frozen-lockfile install using cached package store",
+  "mockEnvironmentSetup": "PASS: copied supplied .env.example to .env.local",
+  "build": "PASS: standard pnpm build",
+  "tests": {
+    "passed": 73,
+    "failed": 0
+  },
+  "http": {
+    "home": 200,
+    "opportunities": 15,
+    "matches": 15,
+    "strongMatchScore": 100
+  },
+  "note": "Final documentation/evidence can be completed after this candidate check; final package verification must match this runtime fingerprint."
+}

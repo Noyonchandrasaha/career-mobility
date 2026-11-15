@@ -1,0 +1,31 @@
+{
+  "educationLevel": "bachelors",
+  "fieldOfStudy": "business administration",
+  "experienceYears": 2,
+  "experienceDescription": "Two years assisting programme research, reporting and project coordination for a fictional organization.",
+  "skills": [
+    "excel",
+    "research",
+    "reporting",
+    "project coordination",
+    "communication"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "professional"
+    },
+    {
+      "language": "Bengali",
+      "proficiency": "native"
+    }
+  ],
+  "preferredCountries": ["Canada", "Singapore", "Germany"],
+  "careerInterests": ["Operations", "Project Management", "Research"],
+  "workAuthorizations": {
+    "Canada": "unknown",
+    "Singapore": "unknown",
+    "Germany": "unknown"
+  },
+  "studentStatus": "unknown"
+}

@@ -1,0 +1,532 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "slug": "programme-assistant",
+    "title": "Programme Assistant",
+    "organization": "MapleBridge Initiatives",
+    "country": "Canada",
+    "city": "Toronto",
+    "employmentType": "full_time",
+    "description": "Coordinate a fictional community programme, maintain reporting schedules and support stakeholder meetings.",
+    "responsibilities": [
+      "Maintain programme trackers and weekly reports.",
+      "Coordinate meetings and follow up on action items."
+    ],
+    "requiredSkills": [
+      "excel",
+      "research",
+      "reporting",
+      "project coordination"
+    ],
+    "minimumExperienceYears": 1,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration", "social sciences"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Programme Operations"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "slug": "project-coordinator",
+    "title": "Project Coordinator",
+    "organization": "Meridian Grove Projects",
+    "country": "Singapore",
+    "city": "Singapore",
+    "employmentType": "full_time",
+    "description": "Support delivery of fictional regional projects through planning, documentation and communication.",
+    "responsibilities": [
+      "Maintain milestone schedules and risk logs.",
+      "Prepare progress updates for project leads."
+    ],
+    "requiredSkills": [
+      "excel",
+      "reporting",
+      "project coordination",
+      "communication"
+    ],
+    "minimumExperienceYears": 2,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Project Management"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000003",
+    "slug": "business-operations-associate",
+    "title": "Business Operations Associate",
+    "organization": "RheinVale Collective",
+    "country": "Germany",
+    "city": "Berlin",
+    "employmentType": "full_time",
+    "description": "Help a fictional operations team improve internal processes and maintain business records.",
+    "responsibilities": [
+      "Track operational requests and metrics.",
+      "Document process improvements."
+    ],
+    "requiredSkills": ["excel", "reporting", "communication"],
+    "minimumExperienceYears": 1,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Operations"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000004",
+    "slug": "research-assistant",
+    "title": "Research Assistant",
+    "organization": "Cedar Lantern Institute",
+    "country": "Canada",
+    "city": "Ottawa",
+    "employmentType": "full_time",
+    "description": "Support a fictional policy research project through desk research and structured reporting.",
+    "responsibilities": [
+      "Summarize public research materials.",
+      "Maintain research notes and data tables."
+    ],
+    "requiredSkills": ["research", "reporting", "excel"],
+    "minimumExperienceYears": 1,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration", "social sciences"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Research"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000005",
+    "slug": "operations-analyst",
+    "title": "Operations Analyst",
+    "organization": "Straits Orchard Operations",
+    "country": "Singapore",
+    "city": "Singapore",
+    "employmentType": "full_time",
+    "description": "Analyze fictional service operations data and prepare practical improvement recommendations.",
+    "responsibilities": [
+      "Prepare operational dashboards.",
+      "Investigate process bottlenecks."
+    ],
+    "requiredSkills": ["excel", "reporting", "sql", "data visualization"],
+    "minimumExperienceYears": 2,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration", "economics"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Operations", "Analytics"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000006",
+    "slug": "administrative-coordinator",
+    "title": "Administrative Coordinator",
+    "organization": "Linden Quay Services",
+    "country": "Germany",
+    "city": "Hamburg",
+    "employmentType": "full_time",
+    "description": "Organize fictional office schedules, correspondence and administrative records.",
+    "responsibilities": [
+      "Maintain team calendars and records.",
+      "Coordinate routine office requests."
+    ],
+    "requiredSkills": [
+      "communication",
+      "scheduling",
+      "records management",
+      "excel"
+    ],
+    "minimumExperienceYears": 1,
+    "minimumEducationLevel": "diploma",
+    "acceptedEducationFields": ["business administration"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Administration"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000007",
+    "slug": "junior-business-analyst",
+    "title": "Junior Business Analyst",
+    "organization": "Northstar Meadow Consulting",
+    "country": "Canada",
+    "city": "Vancouver",
+    "employmentType": "full_time",
+    "description": "Help a fictional consulting team document requirements and analyze business processes.",
+    "responsibilities": [
+      "Document stakeholder requirements.",
+      "Create process maps and basic analyses."
+    ],
+    "requiredSkills": [
+      "excel",
+      "requirements gathering",
+      "sql",
+      "process mapping"
+    ],
+    "minimumExperienceYears": 1,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration", "computer science"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Analytics"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000008",
+    "slug": "hr-operations-assistant",
+    "title": "HR Operations Assistant",
+    "organization": "Harbour Fern People",
+    "country": "Singapore",
+    "city": "Singapore",
+    "employmentType": "full_time",
+    "description": "Support fictional employee records and HR operations with careful documentation.",
+    "responsibilities": [
+      "Maintain employee administration trackers.",
+      "Support payroll reconciliation."
+    ],
+    "requiredSkills": [
+      "communication",
+      "excel",
+      "hr administration",
+      "payroll"
+    ],
+    "minimumExperienceYears": 1,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration", "human resources"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Human Resources"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000009",
+    "slug": "business-analyst-intern",
+    "title": "Business Analyst Intern",
+    "organization": "Maple Cove Analytics",
+    "country": "Canada",
+    "city": "Toronto",
+    "employmentType": "internship",
+    "description": "A fictional student internship supporting research and spreadsheet analysis.",
+    "responsibilities": [
+      "Assist with spreadsheet-based analysis.",
+      "Summarize findings for the project team."
+    ],
+    "requiredSkills": ["excel", "research", "data analysis"],
+    "minimumExperienceYears": 0,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration", "economics"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Analytics"],
+    "eligibility": {
+      "requiresCurrentEnrollment": true,
+      "requiresLocalWorkAuthorization": true,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000010",
+    "slug": "german-speaking-client-associate",
+    "title": "German-speaking Client Associate",
+    "organization": "Spree Lantern Relations",
+    "country": "Germany",
+    "city": "Berlin",
+    "employmentType": "full_time",
+    "description": "Support fictional German-speaking clients through clear communication and issue tracking.",
+    "responsibilities": [
+      "Respond to German-language client inquiries.",
+      "Maintain client issue reports."
+    ],
+    "requiredSkills": ["communication", "customer service", "reporting"],
+    "minimumExperienceYears": 1,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      },
+      {
+        "language": "German",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Client Services"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000011",
+    "slug": "senior-project-manager",
+    "title": "Senior Project Manager",
+    "organization": "Cedar Atlas Delivery",
+    "country": "Canada",
+    "city": "Toronto",
+    "employmentType": "full_time",
+    "description": "Lead complex fictional delivery programmes with budget and team responsibility.",
+    "responsibilities": [
+      "Manage delivery budgets and escalation plans.",
+      "Lead cross-functional project reviews."
+    ],
+    "requiredSkills": [
+      "project coordination",
+      "reporting",
+      "budget management",
+      "team leadership"
+    ],
+    "minimumExperienceYears": 7,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["business administration"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Project Management"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000012",
+    "slug": "software-engineer",
+    "title": "Software Engineer",
+    "organization": "Straits Pebble Systems",
+    "country": "Singapore",
+    "city": "Singapore",
+    "employmentType": "full_time",
+    "description": "Build and maintain a fictional web product with a software engineering team.",
+    "responsibilities": [
+      "Implement tested product features.",
+      "Review code and investigate defects."
+    ],
+    "requiredSkills": ["typescript", "react", "node.js", "sql"],
+    "minimumExperienceYears": 2,
+    "minimumEducationLevel": "bachelors",
+    "acceptedEducationFields": ["computer science"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Software Engineering"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000013",
+    "slug": "financial-risk-analyst",
+    "title": "Financial Risk Analyst",
+    "organization": "Isar Willow Risk",
+    "country": "Germany",
+    "city": "Munich",
+    "employmentType": "full_time",
+    "description": "Model fictional financial risk scenarios using quantitative methods.",
+    "responsibilities": [
+      "Develop risk models and validation notes.",
+      "Prepare financial exposure summaries."
+    ],
+    "requiredSkills": [
+      "financial modeling",
+      "risk analysis",
+      "python",
+      "statistics"
+    ],
+    "minimumExperienceYears": 3,
+    "minimumEducationLevel": "masters",
+    "acceptedEducationFields": ["finance", "economics"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Finance"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000014",
+    "slug": "medical-research-scientist",
+    "title": "Medical Research Scientist",
+    "organization": "Boreal Iris Laboratory",
+    "country": "Canada",
+    "city": "Montreal",
+    "employmentType": "full_time",
+    "description": "Conduct fictional biomedical research requiring specialized scientific education.",
+    "responsibilities": [
+      "Design laboratory research protocols.",
+      "Analyze study results and document methods."
+    ],
+    "requiredSkills": [
+      "clinical research",
+      "laboratory methods",
+      "biostatistics"
+    ],
+    "minimumExperienceYears": 4,
+    "minimumEducationLevel": "doctorate",
+    "acceptedEducationFields": ["medicine", "biomedical sciences"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Medical Research"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000015",
+    "slug": "senior-data-engineer",
+    "title": "Senior Data Engineer",
+    "organization": "Meridian Moss Data",
+    "country": "Singapore",
+    "city": "Singapore",
+    "employmentType": "full_time",
+    "description": "Design fictional large-scale data systems and reliable processing pipelines.",
+    "responsibilities": [
+      "Design batch and streaming pipelines.",
+      "Review platform reliability and data quality."
+    ],
+    "requiredSkills": [
+      "python",
+      "sql",
+      "apache spark",
+      "data pipelines",
+      "cloud architecture"
+    ],
+    "minimumExperienceYears": 6,
+    "minimumEducationLevel": "masters",
+    "acceptedEducationFields": ["computer science", "data engineering"],
+    "requiredLanguages": [
+      {
+        "language": "English",
+        "minimumProficiency": "professional",
+        "mandatory": true
+      }
+    ],
+    "careerCategories": ["Data Engineering"],
+    "eligibility": {
+      "requiresCurrentEnrollment": false,
+      "requiresLocalWorkAuthorization": false,
+      "additionalConditions": []
+    },
+    "isActive": true
+  }
+]

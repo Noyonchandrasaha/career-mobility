@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-15T16:40:21.984Z",
+  "mode": "mock",
+  "unitIntegration": {
+    "passed": 73,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 23,
+    "failed": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "matchingScenarios": 5,
+  "accessibility": {
+    "scannedStates": 8,
+    "violations": 0,
+    "manualReviewItems": 1
+  },
+  "screenshots": [
+    "docs/evidence/screenshots/home-desktop.png",
+    "docs/evidence/screenshots/home-mobile.png",
+    "docs/evidence/screenshots/profile-desktop.png",
+    "docs/evidence/screenshots/profile-mobile.png",
+    "docs/evidence/screenshots/recommendations-desktop.png",
+    "docs/evidence/screenshots/opportunity-mobile.png",
+    "docs/evidence/screenshots/saved-desktop.png",
+    "docs/evidence/screenshots/saved-mobile.png"
+  ],
+  "hostedSupabase": "NOT_RUN: no project credentials supplied",
+  "originalAssessment": "NOT_AVAILABLE",
+  "productionDeployment": "NOT_PERFORMED"
+}

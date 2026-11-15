@@ -1,0 +1,1061 @@
+{
+  "numTotalTestSuites": 23,
+  "numPassedTestSuites": 23,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 73,
+  "numPassedTests": 73,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1794760098487,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers persists a validated profile for the verified user and blocks identity injection",
+          "status": "passed",
+          "title": "persists a validated profile for the verified user and blocks identity injection",
+          "duration": 26.123100000000022,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers requires a session on all private operations",
+          "status": "passed",
+          "title": "requires a session on all private operations",
+          "duration": 5.210700000000088,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers recomputes matches from persisted profile and rejects browser profile override",
+          "status": "passed",
+          "title": "recomputes matches from persisted profile and rejects browser profile override",
+          "duration": 10.422000000000025,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers gives a clear missing-profile response",
+          "status": "passed",
+          "title": "gives a clear missing-profile response",
+          "duration": 1.4024000000001706,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers allows public details without a profile and hides inactive/unknown records",
+          "status": "passed",
+          "title": "allows public details without a profile and hides inactive/unknown records",
+          "duration": 14.05970000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers saves idempotently, preserves unavailable history, and isolates removal by verified user",
+          "status": "passed",
+          "title": "saves idempotently, preserves unavailable history, and isolates removal by verified user",
+          "duration": 11.241800000000012,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers rejects malformed bodies, oversized payloads and cross-origin mutations",
+          "status": "passed",
+          "title": "rejects malformed bodies, oversized payloads and cross-origin mutations",
+          "duration": 3.298400000000129,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers never reports success or switches modes on a service failure, and retains error cookies",
+          "status": "passed",
+          "title": "never reports success or switches modes on a service failure, and retains error cookies",
+          "duration": 1.5480999999999767,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers supports explicit mock server matching, without server-side demo profile persistence",
+          "status": "passed",
+          "title": "supports explicit mock server matching, without server-side demo profile persistence",
+          "duration": 4.463899999999967,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers keeps internal failure details out of HTTP responses",
+          "status": "passed",
+          "title": "keeps internal failure details out of HTTP responses",
+          "duration": 3.814100000000053,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Career API handlers"
+          ],
+          "fullName": "Career API handlers accepts the browser's actual loopback Host while still rejecting different origins",
+          "status": "passed",
+          "title": "accepts the browser's actual loopback Host while still rejecting different origins",
+          "duration": 2.7613000000001193,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760099700,
+      "endTime": 1794760099784.7612,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/api.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Browser demo persistence with real matching handler"
+          ],
+          "fullName": "Browser demo persistence with real matching handler persists profile, identity and shortlist across adapter recreation and recalculates current matches",
+          "status": "passed",
+          "title": "persists profile, identity and shortlist across adapter recreation and recalculates current matches",
+          "duration": 49.0753000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Browser demo persistence with real matching handler"
+          ],
+          "fullName": "Browser demo persistence with real matching handler does not claim successful mutation when storage fails or discard corrupt data",
+          "status": "passed",
+          "title": "does not claim successful mutation when storage fails or discard corrupt data",
+          "duration": 2.9269999999999072,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Browser demo persistence with real matching handler"
+          ],
+          "fullName": "Browser demo persistence with real matching handler keeps independent demo browsers isolated and requires a profile before matching",
+          "status": "passed",
+          "title": "keeps independent demo browsers isolated and requires a profile before matching",
+          "duration": 3.867200000000139,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Browser demo persistence with real matching handler"
+          ],
+          "fullName": "Browser demo persistence with real matching handler surfaces server failure without inventing results or switching to local matching",
+          "status": "passed",
+          "title": "surfaces server failure without inventing results or switching to local matching",
+          "duration": 1.5238000000001648,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Supabase browser API adapter"
+          ],
+          "fullName": "Supabase browser API adapter deduplicates concurrent session initialization and never sends browser identity in writes",
+          "status": "passed",
+          "title": "deduplicates concurrent session initialization and never sends browser identity in writes",
+          "duration": 1.7063999999998032,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Supabase browser API adapter"
+          ],
+          "fullName": "Supabase browser API adapter distinguishes missing profile from a failed session, invalidates stale session and permits retry",
+          "status": "passed",
+          "title": "distinguishes missing profile from a failed session, invalidates stale session and permits retry",
+          "duration": 4.258000000000038,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Supabase browser API adapter"
+          ],
+          "fullName": "Supabase browser API adapter rejects an unspecified/invalid mode instead of silently creating a demo",
+          "status": "passed",
+          "title": "rejects an unspecified/invalid mode instead of silently creating a demo",
+          "duration": 0.5829999999998563,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760099683,
+      "endTime": 1794760099747.583,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/client.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Fictional seed dataset"
+          ],
+          "fullName": "Fictional seed dataset contains fifteen valid, stable identities with normalized countries and varied requirements",
+          "status": "passed",
+          "title": "contains fifteen valid, stable identities with normalized countries and varied requirements",
+          "duration": 10.778300000000058,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Fictional seed dataset"
+          ],
+          "fullName": "Fictional seed dataset preserves the required internship and German-language scenarios",
+          "status": "passed",
+          "title": "preserves the required internship and German-language scenarios",
+          "duration": 5.897199999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760101497,
+      "endTime": 1794760101513.8972,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/dataset.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria computes a complete match and reports every criterion",
+          "status": "passed",
+          "title": "computes a complete match and reports every criterion",
+          "duration": 10.841499999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria computes a partial match without rounding criterion points first",
+          "status": "passed",
+          "title": "computes a partial match without rounding criterion points first",
+          "duration": 1.5172000000000025,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria normalizes skill aliases, whitespace and duplicate requirements without inflating scores",
+          "status": "passed",
+          "title": "normalizes skill aliases, whitespace and duplicate requirements without inflating scores",
+          "duration": 0.6604999999999563,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria uses neutral skills and a warning for an empty configured skill list",
+          "status": "passed",
+          "title": "uses neutral skills and a warning for an empty configured skill list",
+          "duration": 0.7417000000000371,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria experience 0 / 0 gives 1",
+          "status": "passed",
+          "title": "experience 0 / 0 gives 1",
+          "duration": 0.25,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria experience 0 / 4 gives 0",
+          "status": "passed",
+          "title": "experience 0 / 4 gives 0",
+          "duration": 0.18760000000008858,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria experience 2 / 4 gives 0.5",
+          "status": "passed",
+          "title": "experience 2 / 4 gives 0.5",
+          "duration": 0.26300000000003365,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria experience 8 / 4 gives 1",
+          "status": "passed",
+          "title": "experience 8 / 4 gives 1",
+          "duration": 0.16350000000011278,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria requires both education level and field, without inventing specialized qualifications",
+          "status": "passed",
+          "title": "requires both education level and field, without inventing specialized qualifications",
+          "duration": 1.7567000000000235,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria matches normalized locations without treating preferences as authorization",
+          "status": "passed",
+          "title": "matches normalized locations without treating preferences as authorization",
+          "duration": 0.7948000000000093,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria supports zero and full scores and never modifies inputs",
+          "status": "passed",
+          "title": "supports zero and full scores and never modifies inputs",
+          "duration": 0.7132000000000289,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Weighted criteria"
+          ],
+          "fullName": "Weighted criteria recomputes improvements instead of retaining stale scores",
+          "status": "passed",
+          "title": "recomputes improvements instead of retaining stale scores",
+          "duration": 0.48910000000000764,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Mandatory constraints and uncertainty"
+          ],
+          "fullName": "Mandatory constraints and uncertainty keeps unknown internship enrollment and authorization as verification, not failure or success",
+          "status": "passed",
+          "title": "keeps unknown internship enrollment and authorization as verification, not failure or success",
+          "duration": 0.4375999999999749,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Mandatory constraints and uncertainty"
+          ],
+          "fullName": "Mandatory constraints and uncertainty confirmed failure overrides unknown constraints without changing the alignment score",
+          "status": "passed",
+          "title": "confirmed failure overrides unknown constraints without changing the alignment score",
+          "duration": 0.6711999999999989,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Mandatory constraints and uncertainty"
+          ],
+          "fullName": "Mandatory constraints and uncertainty evaluates declared authorization per country, including absent and conflicting entries",
+          "status": "passed",
+          "title": "evaluates declared authorization per country, including absent and conflicting entries",
+          "duration": 0.48339999999996053,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Mandatory constraints and uncertainty"
+          ],
+          "fullName": "Mandatory constraints and uncertainty blocks missing or insufficient mandatory German and accepts the stated level",
+          "status": "passed",
+          "title": "blocks missing or insufficient mandatory German and accepts the stated level",
+          "duration": 0.5832000000000335,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Mandatory constraints and uncertainty"
+          ],
+          "fullName": "Mandatory constraints and uncertainty does not turn incomplete imported language information into a confirmed failure",
+          "status": "passed",
+          "title": "does not turn incomplete imported language information into a confirmed failure",
+          "duration": 0.23159999999995762,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Mandatory constraints and uncertainty"
+          ],
+          "fullName": "Mandatory constraints and uncertainty distinguishes optional languages from mandatory ones, and no restrictions earns full language credit",
+          "status": "passed",
+          "title": "distinguishes optional languages from mandatory ones, and no restrictions earns full language credit",
+          "duration": 0.345299999999952,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Mandatory constraints and uncertainty"
+          ],
+          "fullName": "Mandatory constraints and uncertainty does not silently certify free-text additional conditions",
+          "status": "passed",
+          "title": "does not silently certify free-text additional conditions",
+          "duration": 0.21690000000000964,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Batch validation and deterministic ranking"
+          ],
+          "fullName": "Batch validation and deterministic ranking groups eligibility before score and uses stable IDs for ties without mutating results",
+          "status": "passed",
+          "title": "groups eligibility before score and uses stable IDs for ties without mutating results",
+          "duration": 1.1620999999998958,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Batch validation and deterministic ranking"
+          ],
+          "fullName": "Batch validation and deterministic ranking excludes invalid, duplicate and inactive records; exposes diagnostics for server logging",
+          "status": "passed",
+          "title": "excludes invalid, duplicate and inactive records; exposes diagnostics for server logging",
+          "duration": 2.1644999999999754,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Batch validation and deterministic ranking"
+          ],
+          "fullName": "Batch validation and deterministic ranking evaluates fifteen schema-valid results repeatably, independent of dataset order",
+          "status": "passed",
+          "title": "evaluates fifteen schema-valid results repeatably, independent of dataset order",
+          "duration": 8.2032999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760100459,
+      "endTime": 1794760100494.2034,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/matching.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Profile draft validation boundary"
+          ],
+          "fullName": "Profile draft validation boundary distinguishes a blank number from zero and accepts fractional experience",
+          "status": "passed",
+          "title": "distinguishes a blank number from zero and accepts fractional experience",
+          "duration": 5.22320000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile draft validation boundary"
+          ],
+          "fullName": "Profile draft validation boundary excludes UI row identities, normalizes aliases and preserves unknown declarations",
+          "status": "passed",
+          "title": "excludes UI row identities, normalizes aliases and preserves unknown declarations",
+          "duration": 9.879699999999957,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile draft validation boundary"
+          ],
+          "fullName": "Profile draft validation boundary exposes indexed language errors and required multi-selection errors",
+          "status": "passed",
+          "title": "exposes indexed language errors and required multi-selection errors",
+          "duration": 0.890299999999911,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760101966,
+      "endTime": 1794760101981.8904,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/profile-draft.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Recommendation display contracts"
+          ],
+          "fullName": "Recommendation display contracts joins job data without reranking or hiding weak/blocked matches",
+          "status": "passed",
+          "title": "joins job data without reranking or hiding weak/blocked matches",
+          "duration": 7.992200000000025,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Recommendation display contracts"
+          ],
+          "fullName": "Recommendation display contracts reports an empty dataset without inventing opportunities",
+          "status": "passed",
+          "title": "reports an empty dataset without inventing opportunities",
+          "duration": 0.44240000000002055,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Recommendation display contracts"
+          ],
+          "fullName": "Recommendation display contracts rejects missing/inactive opportunity joins and inconsistent totals",
+          "status": "passed",
+          "title": "rejects missing/inactive opportunity joins and inconsistent totals",
+          "duration": 1.691599999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Recommendation display contracts"
+          ],
+          "fullName": "Recommendation display contracts provides server-derived per-criterion explanation and exact eligibility reasons",
+          "status": "passed",
+          "title": "provides server-derived per-criterion explanation and exact eligibility reasons",
+          "duration": 1.441599999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760102117,
+      "endTime": 1794760102128.4417,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/recommendations.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Real migration and RLS in embedded PostgreSQL (Auth stubbed)"
+          ],
+          "fullName": "Real migration and RLS in embedded PostgreSQL (Auth stubbed) allows own profile create/read/update and rejects another user's identity",
+          "status": "passed",
+          "title": "allows own profile create/read/update and rejects another user's identity",
+          "duration": 37.97019999999975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Real migration and RLS in embedded PostgreSQL (Auth stubbed)"
+          ],
+          "fullName": "Real migration and RLS in embedded PostgreSQL (Auth stubbed) restricts public opportunities to active reads and forbids user writes",
+          "status": "passed",
+          "title": "restricts public opportunities to active reads and forbids user writes",
+          "duration": 11.534799999999905,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Real migration and RLS in embedded PostgreSQL (Auth stubbed)"
+          ],
+          "fullName": "Real migration and RLS in embedded PostgreSQL (Auth stubbed) isolates shortlist reads/removals and enforces owner, active item and unique pair",
+          "status": "passed",
+          "title": "isolates shortlist reads/removals and enforces owner, active item and unique pair",
+          "duration": 18.01839999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Real migration and RLS in embedded PostgreSQL (Auth stubbed)"
+          ],
+          "fullName": "Real migration and RLS in embedded PostgreSQL (Auth stubbed) validates database constraints and updates the profile timestamp",
+          "status": "passed",
+          "title": "validates database constraints and updates the profile timestamp",
+          "duration": 8.31860000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Real migration and RLS in embedded PostgreSQL (Auth stubbed)"
+          ],
+          "fullName": "Real migration and RLS in embedded PostgreSQL (Auth stubbed) supports repeatable stable-ID seeding without duplicate opportunities",
+          "status": "passed",
+          "title": "supports repeatable stable-ID seeding without duplicate opportunities",
+          "duration": 27.385600000000068,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760102554,
+      "endTime": 1794760102657.3855,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/rls.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Per-request verified SSR sessions"
+          ],
+          "fullName": "Per-request verified SSR sessions verifies existing identity once per request and never signs up again",
+          "status": "passed",
+          "title": "verifies existing identity once per request and never signs up again",
+          "duration": 7.448000000000036,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Per-request verified SSR sessions"
+          ],
+          "fullName": "Per-request verified SSR sessions initializes a genuinely missing session and forwards all cookie chunks/cache headers",
+          "status": "passed",
+          "title": "initializes a genuinely missing session and forwards all cookie chunks/cache headers",
+          "duration": 5.969599999999957,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Per-request verified SSR sessions"
+          ],
+          "fullName": "Per-request verified SSR sessions never silently replaces invalid stored identity",
+          "status": "passed",
+          "title": "never silently replaces invalid stored identity",
+          "duration": 3.517500000000041,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Per-request verified SSR sessions"
+          ],
+          "fullName": "Per-request verified SSR sessions distinguishes remote service failure from rejected authentication",
+          "status": "passed",
+          "title": "distinguishes remote service failure from rejected authentication",
+          "duration": 1.4779000000000337,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760100330,
+      "endTime": 1794760100348.4778,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/session.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary accepts zero experience and preserves unknown eligibility",
+          "status": "passed",
+          "title": "accepts zero experience and preserves unknown eligibility",
+          "duration": 7.198399999999992,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects invalid experience -1",
+          "status": "passed",
+          "title": "rejects invalid experience -1",
+          "duration": 0.7118000000000393,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects invalid experience NaN",
+          "status": "passed",
+          "title": "rejects invalid experience NaN",
+          "duration": 0.3341000000000349,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects invalid experience Infinity",
+          "status": "passed",
+          "title": "rejects invalid experience Infinity",
+          "duration": 0.250699999999938,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects invalid experience 2",
+          "status": "passed",
+          "title": "rejects invalid experience 2",
+          "duration": 0.21699999999998454,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects empty skills",
+          "status": "passed",
+          "title": "rejects empty skills",
+          "duration": 0.30549999999993815,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects empty languages",
+          "status": "passed",
+          "title": "rejects empty languages",
+          "duration": 0.20580000000006748,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects empty preferredCountries",
+          "status": "passed",
+          "title": "rejects empty preferredCountries",
+          "duration": 0.23859999999990578,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects empty careerInterests",
+          "status": "passed",
+          "title": "rejects empty careerInterests",
+          "duration": 0.28560000000004493,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects blank content and duplicate trimmed/case-folded selections",
+          "status": "passed",
+          "title": "rejects blank content and duplicate trimmed/case-folded selections",
+          "duration": 0.6134999999999309,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Profile validation boundary"
+          ],
+          "fullName": "Profile validation boundary rejects supplied ownership and unrecognized authorization states",
+          "status": "passed",
+          "title": "rejects supplied ownership and unrecognized authorization states",
+          "duration": 0.8185999999999467,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Opportunity validation boundary"
+          ],
+          "fullName": "Opportunity validation boundary allows absent restrictions without inventing requirements",
+          "status": "passed",
+          "title": "allows absent restrictions without inventing requirements",
+          "duration": 2.5874999999999773,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Opportunity validation boundary"
+          ],
+          "fullName": "Opportunity validation boundary rejects missing mandatory language flags and negative requirements",
+          "status": "passed",
+          "title": "rejects missing mandatory language flags and negative requirements",
+          "duration": 0.8618999999999915,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Opportunity validation boundary"
+          ],
+          "fullName": "Opportunity validation boundary rejects duplicate seed identities even with fifteen records",
+          "status": "passed",
+          "title": "rejects duplicate seed identities even with fifteen records",
+          "duration": 1.4388999999999896,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Explicit environment selection"
+          ],
+          "fullName": "Explicit environment selection allows credential-free mock mode without silently defaulting to it",
+          "status": "passed",
+          "title": "allows credential-free mock mode without silently defaulting to it",
+          "duration": 1.5240999999999758,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794760100924,
+      "endTime": 1794760100941.5242,
+      "status": "passed",
+      "message": "",
+      "name": "./tests/validation.test.ts"
+    }
+  ]
+}

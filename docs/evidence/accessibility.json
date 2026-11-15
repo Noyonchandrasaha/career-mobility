@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/profile",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/recommendations",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/opportunities/00000000-0000-4000-8000-000000000001",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/saved",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/saved (mobile drawer)",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements"
+      }
+    ]
+  },
+  {
+    "path": "/profile (empty)",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/profile (validation errors)",
+    "violations": [],
+    "incomplete": []
+  }
+]
